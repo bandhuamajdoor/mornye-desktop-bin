@@ -1,0 +1,6 @@
+*.AppImage
+*.pkg.tar.zst
+*.pkg.tar.*
+src/
+pkg/
+squashfs-root/
