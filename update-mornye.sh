@@ -69,8 +69,11 @@ if [[ ! "$answer" =~ ^[Yy]$ ]]; then
 fi
 
 git add PKGBUILD .SRCINFO
-git commit -m "Update Mornye to $version"
-git push origin main
 
-echo "Successfully pushed Mornye $version packaging to GitHub."
-
+if ! git diff --cached --quiet; then
+    git commit -m "Update Mornye to $version"
+    git push origin main
+    echo "Successfully pushed Mornye $version to GitHub."
+else
+    echo "No packaging changes to commit."
+fi
