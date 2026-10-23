@@ -19,4 +19,3 @@ Clone this repository and build the package:
 https://github.com/mornyeapp/Mornye-Desktop/releases
 
 This is a community-maintained package and is not affiliated with the upstream project.
-EOF
