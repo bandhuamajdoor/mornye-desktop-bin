@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # Mornye Desktop for Arch Linux
 
 Unofficial Arch Linux packaging for [Mornye Desktop](https://github.com/mornyeapp/Mornye-Desktop).
