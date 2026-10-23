@@ -1,0 +1,14 @@
+pkgbase = mornye-desktop-bin
+	pkgdesc = Mornye desktop music player
+	pkgver = 5.2.6
+	pkgrel = 1
+	url = https://github.com/mornyeapp/Mornye-Desktop
+	arch = x86_64
+	license = LGPL-3.0-only
+	depends = bash
+	depends = fuse2
+	options = !strip
+	source = Mornye-5.2.6-linux-x86_64.AppImage::https://github.com/mornyeapp/Mornye-Desktop/releases/download/v5.2.6/Mornye-v5.2.6-linux-x86_64.AppImage
+	sha256sums = 3d341140ba9a8cf603469add74113751e8d8a0f7062eb74d424bdd6295a765ed
+
+pkgname = mornye-desktop-bin
